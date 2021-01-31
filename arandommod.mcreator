@@ -9,12 +9,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "unchartedwaters"
+    },
+    {
+      "name": "Wraithworm",
+      "type": "mob",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wraithworm"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "entity.arandommod.wraithworm": "Wraith worm",
+      "item.arandommod.wraithworm_spawn_egg": "Wraith worm Spawn Egg",
       "biome.arandommod.unchartedwaters": "Uncharted waters"
     }
   },
