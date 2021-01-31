@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "arandommod:blocks/test",
-    "particle": "arandommod:blocks/test"
-  }
-}
