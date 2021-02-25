@@ -63,7 +63,7 @@ public class UnchartedwatersBiome extends ArandommodModElements.ModElement {
 				DefaultBiomeFeatures.withEmeraldOre(biomeGenerationSettings);
 				DefaultBiomeFeatures.withFossils(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
-				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.OCEAN).depth(-4.199999999999999f).scale(0.2f)
+				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.OCEAN).depth(-3.5f).scale(0.1f)
 						.temperature(0.2f).downfall(0.3f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();
 				event.getRegistry().register(biome.setRegistryName("arandommod:unchartedwaters"));
